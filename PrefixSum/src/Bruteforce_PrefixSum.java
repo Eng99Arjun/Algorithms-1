@@ -9,7 +9,7 @@ public class Bruteforce_PrefixSum {
         int length = sc.nextInt();
         int [] arr = new int[length];
 
-        for(int i = 1; i <= length; i++){
+        for(int i = 0; i < length; i++){
             arr[i] =  sc.nextInt();
         }
 
@@ -24,7 +24,7 @@ public class Bruteforce_PrefixSum {
         }
 
         System.out.println("Prefix Sum : ");
-        for(int i = 1; i <= length; i++){
+        for(int i = 0; i < length; i++){
             System.out.print(prefixArr[i] + " ");
         }
     }
